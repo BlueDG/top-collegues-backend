@@ -22,6 +22,8 @@ public class CollegueCtrl {
 
     // requête GET /versions
     // http://localhost:8080/versions
+    
+    
     @GetMapping
     public List<Collegue> findAll() {
         return this.collegueRepo.findAll();
